@@ -1,0 +1,75 @@
+LSTM_Keras_multi_cntk_rmsprop_timedist_imp2_std_dp(0.005_0.15_0.25)_200_48_256_256_32.h5
+en_layer[4], linear, rmsprop, shuffle=True, stateless, kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.005_0.15_0.25
+Training RMSE : 6.496475041980036
+Validation RMSE : 8.17732318241408
+
+LSTM_Keras_multi_cntk_rmsprop_timedist_imp2_std_dp(0.005_0.15_0.25)_200_48_512_512_32.h5
+en_layer[4], linear, rmsprop, shuffle=True, stateless, kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.005_0.15_0.25
+Training RMSE : 6.391640366185024
+Validation RMSE : 8.284174206871807
+
+LSTM_Keras_multi_cntk_rmsprop_timedist_imp2_std_200_48_256_256_32.h5
+en_layer[4], linear, rmsprop, shuffle=True, stateless, kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.1,0.15,0.35
+Training RMSE : 6.975430362807762
+Validation RMSE : 8.426380581055593
+
+LSTM_Keras_multi_cntk_rmsprop_autoen_imp2_standard_dp(0.05_0.15_0.25)_200_48_256_256_32.h5
+en_layer[4,8], linear, rmsprop, shuffle=True, stateless, kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.05_0.15_0.25
+Training RMSE : 7.072957300879873
+Validation RMSE : 8.631193201346234
+
+Check this - LSTM_Keras_multi_cntk_rmsprop_autoen_imp2_standard_min_max_dp(0.005_0.05_0.25)_200_48_256_256_256_32.h5
+en_layer[4,8], tanh, rmsprop, shuffle=True, stateless, kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.005_0.05_0.25
+Training RMSE : 9.711235120274962
+Validation RMSE : 7.793204646787503
+
+LSTM_Keras_multi_cntk_rmsprop_timedist_imp2_stdmima100_48_256_256_32.h5
+en_layer[32], linear, rmsprop, shuffle=True, stateless, kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.1,0.15,0.35
+Training RMSE : 13.1060820748033
+Validation RMSE : 13.205684030952515
+
+
+
+
+
+
+
+
+LSTM_Keras_multi_cntk_rmsprop_timedist_imp2_robmima100_48_256_256_32.h5
+en_layer[32], linear, rmsprop, shuffle=True, stateless, kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.1,0.15,0.35
+RMSE = 14.929759425957966
+
+LSTM_Keras_multi_cntk_adam_imp2_robmima100_48_256_256_32.h5
+ELU, adam, shuffle=True, stateless, kernel_initializer='he_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.15,0.3,0.4
+RMSE = 15.348859672494461
+
+LSTM_Keras_multi_cntk_rmsprop_imp2_robmima100_48_256_256_32.h5
+linear, rmsprop, shuffle=True, stateless, kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.15,0.3,0.4
+RMSE = 15.367378316312603
+
+
+
+
+
+
+LSTM_Keras_multi_cntk_rmsprop_autoen_imp2_standard_min_max_dp(0.005_0.05_0.25)_200_48_256_256_256_32.h5
+en_layer[4,8], tanh, rmsprop, shuffle=True, stateless, kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',implementation=2,
+Dropouts set to 0.005_0.05_0.25
+Training RMSE : 2.8895634931659187
+Validation RMSE : 17.533074282276466
+Test RMSE : 26.342257807436656
+
+
+
+
+
+
